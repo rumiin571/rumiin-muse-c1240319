@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   background: #f2f2f2;
-  justify-content: center;
+  text-align: center;
 }
 
 nav a {
@@ -15,8 +15,10 @@ input {
   width: 220px;
   height: 40px;
   font-size: 18px;
-  justify-content: center;
-  margin-bottom: 10px;
+  text-align: end;
+  margin-bottom: 20px;
+  border-radius: 20ch;
+  -ms-text-justify: auto;
 }
 
 .buttons {
@@ -25,14 +27,14 @@ input {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 6px;
-  justify-content: center;
+  text-align: left;
 }
 
 button {
   height: 40px;
   font-size: 16px;
   cursor: pointer;
-  justify-content: center;
+  text-align: left;
 }
 
 .zero {
@@ -43,7 +45,6 @@ img {
   margin: 15px;
   border-radius: 10px;
   box-shadow: 0 0 8px #aaa;
-  justify-content: center;
 }
 p {
   font-size: 18px;
